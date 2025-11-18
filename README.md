@@ -8,7 +8,7 @@ Este proyecto implementa un pipeline ETL completo y automatizado para la actuali
 
 ✔ Procesos de ingesta, transformación y carga usando SSIS
 
-✔ Integración con SQL Server (Staging → Data Warehouse)
+✔ Integración con SQL Server (Source → Staging → Data Warehouse)
 
 ✔ Dashboard final en Power BI
 
