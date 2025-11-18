@@ -8,7 +8,7 @@ pd.set_option('display.max_columns', None)
 
 # === 2. Conexión a SQL Server ===
 
-engine = create_engine("mssql+pyodbc://Server/SRC_Spherzone?"
+engine = create_engine("mssql+pyodbc://ServerName/SRC_Spherzone?"
                        "driver=ODBC+Driver+17+for+SQL+"
                        "Server&trusted_connection=yes")
 
