@@ -15,4 +15,4 @@ _Hechos_
 - Fact_Venta_Detalle
 
 
-**_Obs:_** Para realizar la proyección de la data se tomó de base ventas de los años 2007-2008, luego, utilizando el Método de Suavización Exponencial se creó la lógica y programa en Python para la generación de nuevas ventas _Cabecera_ y _Detalle_ (simulación) de manera automática diariamente.
+**_Obs:_** Para realizar la proyección de la data se tomó de base ventas de los años 2007-2008, luego, utilizando el Método de Suavización Exponencial se creó la lógica y programa en Python para la generación de nuevas ventas dentro de las tablas **_Fact_Venta_Cabecera_** y **_Fact_Venta_Detalle_** (simulación) de manera automática diariamente.
