@@ -1,3 +1,6 @@
+--Las mismas 10 tablas existen tanto en la "BD Source" (sin PK o FK) y en la "BD DataWarehouse" (con PK y FK). 
+--En "BD Staging" sólo se existen STG_Fact_VentasCabecera y STG_Fact_VentasDetalle y sus homólohos STG_Ref_Fact_VentasCabecera y STG_Ref_Fact_VentasDetalle (sin PK o FK), debido a ser las tablas incrementales.
+
 USE DW_Spherzone;
 
 CREATE TABLE Dim_Tienda (
