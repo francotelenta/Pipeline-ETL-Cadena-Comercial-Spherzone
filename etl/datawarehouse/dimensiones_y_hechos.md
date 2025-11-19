@@ -1,3 +1,5 @@
+**TABLAS UTILIZADAS EN _DATA WAREHOUSE_**
+
 _Dimensiones_
 - Dim_Producto
 - Dim_Familia_Producto
