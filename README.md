@@ -48,6 +48,13 @@ Esquema del Pipeline:
       
 6. Power BI (Visualization)
 
+----
+
+**Arquitectura del pipeline**
+
+<img width="1520" height="802" alt="arquitectura_proceso" src="https://github.com/user-attachments/assets/ad041752-677b-4f86-9925-c37355d0fb3b" />
+
+
 -----------------------------------------------
 
 ⚙ Funcionalidades del Pipeline
