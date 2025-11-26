@@ -1,133 +1,173 @@
-# Pipeline-ETL-Cadena-Comercial-Spherzone
-Pipeline ETL completo para actualizar datos de ventas de la Cadena Comercial Spherzone diariamente usando Python, SQL Server y SSIS. Incluye Staging, Data Warehouse, automatización con SQL Server Agent y dashboard final en Power BI.
+**Pipeline ETL — Cadena Comercial Spherzone**
 
+Pipeline ETL completo y automatizado para la actualización diaria de datos de ventas de la Cadena Comercial Spherzone, utilizando Python, SQL Server, SSIS y visualización final en Power BI.
+El proyecto sigue una arquitectura Source → Staging → Data Warehouse y concluye con un análisis de anomalías mediante Data Storytelling.
 
-Este proyecto implementa un pipeline ETL completo y automatizado para la actualización diaria de información de ventas de una cadena comercial. Incluye:
+----
 
-✔ Generación automática de datos diarios mediante Python
+**🧩 Descripción General**
 
-✔ Procesos de ingesta, transformación y carga usando SSIS
+Este proyecto implementa un pipeline de datos de punta a punta:
 
-✔ Integración con SQL Server (Source → Staging → Data Warehouse)
+✔ Generación automática de ventas simuladas con Python
 
-✔ Dashboard final en Power BI
+✔ Ingesta, limpieza, validación y transformación en SSIS
 
-✔ Orquestación mediante SQL Server Agent
+✔ Carga optimizada a Staging y DW en SQL Server
 
------------------------------------------------
+✔ Orquestación diaria con SQL Server Agent
 
-🔧 Tecnologías Utilizadas
+✔ Normalización auxiliar (PDF → Tabla → Power Query)
+
+✔ Dashboard analítico en Power BI basado en anomalías del Ticket Promedio
+
+El flujo está diseñado para ejecutarse de forma automática, auditada y escalable.
+
+**🛠 Tecnologías Utilizadas**
 
 - Python 3.11
 
 - SQL Server 2021
 
-- Integration Services (SSIS)
-
 - SQL Server Agent
+
+- Integration Services (SSIS) – Visual Studio 2022
 
 - Power BI
 
 - Power Query
 
-- Visual Studio 2022
-
------------------------------------------------
-
-Esquema del Pipeline:
-
-1. Python (Imput)
-
-2. SQL Server (Source)
-      
-3. Python + SQL Server + SSIS (Staging)
-      
-4. SQL Server (Data Warehouse)
-      
-5. Power Query (Auxiliar Table)
-      
-6. Power BI (Visualization)
+- Pandas / NumPy / Matplotlib
 
 ----
 
-**Arquitectura del pipeline**
+**🏗 Arquitectura del Pipeline**
 
-<img width="1520" height="802" alt="arquitectura_proceso" src="https://github.com/user-attachments/assets/ad041752-677b-4f86-9925-c37355d0fb3b" />
+- Generación de datos (Python → SQL Server Source)
 
+- Ingesta a Staging (SSIS + SQL + Python)
 
------------------------------------------------
+- Limpieza y transformaciones
 
-⚙ Funcionalidades del Pipeline
+- Carga final al DW (SSIS)
+
+- Procesos auxiliares (Ubigeo PDF → Tabla → Power Query)
+
+- Dashboard en Power BI
+
+<br> <img width="1520" height="802" alt="arquitectura_proceso" src="https://github.com/user-attachments/assets/ad041752-677b-4f86-9925-c37355d0fb3b" />
+
+----
+
+⚙️ Funcionalidades del Pipeline
 
 1️⃣ Generación automática de ventas (Python)
 
-- Simula ventas diarias basadas en históricos base del 2007 y 2008 (Método de suavización exponencial).
+- Simulación de ventas usando suavización exponencial basada en históricos 2007–2008.
 
-- Alimenta tablas “Source” en SQL Server.
-  
+- Inserción directa en tablas Source de SQL Server.
 
-2️⃣ Procesamiento ETL en SSIS
+2️⃣ Proceso ETL en SSIS (Staging)
 
-- Carga y validación en "Staging".
-  
-- EDA y calidad de datos.
+- Validación de integridad de datos (PK, FK, tipos, fechas).
 
-- Transformaciones (limpieza, fechas, tipos de transacción, validación PK y FK).
+- Limpieza de inconsistencias.
 
-- Carga al Data Warehouse (hechos y dimensiones, homologación PK y FK).
-  
+- Homologación de catálogos y normalización.
 
-3️⃣ Orquestación automática
+- Auditoría por tabla de “Login” en Staging.
 
-Job en SQL Server Agent ejecuta paquete de SSIS de Visual Studio. Este incluye:
+3️⃣ Carga al Data Warehouse
 
-- Scripts Python → Generan data simulada.
+- Creación y mantenimiento de dimensiones y hechos.
 
-- Scripts Python + SSIS → Transforma y refina en Staging.
+- Aplicación de modelos relacionales y surrogates keys.
 
-- SSIS → Refresca el DW
+- Carga incremental optimizada.
 
-  *Adicionalmente, se incluye una tabla "Login" para la fase Staging que se actualiza cada que se orquesta el flujo.*
+4️⃣ Orquestación automática (SQL Server Agent)
 
+- Ejecución diaria del paquete SSIS
 
-4️⃣ Transformación de Tabla Auxiliar de Ubigeos (PDF → Tabla → Power Query → Power BI)
+- Llamado interno a scripts Python
 
-- Fuente: PDF con 27 hojas.
+- Monitorización por tabla de control
 
-- Procesado en Power Query.
+5️⃣ Normalización de Ubigeos (PDF → Tabla → PQ)
 
-- Concatenación y normalización.
+- PDF original con 27 páginas
 
-- Integrado al modelo final de Power BI.
+- Transformación y limpieza en Power Query
 
+- Integración con el modelo de Power BI
 
 ----
 
-**Dashboard de la Cadena Comercial Spherzone**
+📊 Dashboard Analítico — Ticket Promedio
 
-Finalmente, luego de haberse obtenido la data limpia y transformada ya disponible en el Data Warehouse, se procedió con el análisis de la misma de manera que se determinó una anomalía en el KPI de Ticket promedio. A partir de esta necesidad, es como surgió la idea de elaborar un dashboard basado en explicar el origen de este problema. Las vistas del dashboard se muestran a continuación:
+Tras procesar el Data Warehouse, se detectó una anomalía significativa:
+Octubre 2024 mostró el Ticket Promedio más bajo de los últimos 10 años.
 
-**Storytelling general del Ticket promedio**
+La investigación se centró en explicar el origen de esta caída mediante:
 
+- Tendencias anuales
+
+- Análisis YoY
+
+- Ranking histórico
+
+- Variabilidad por tienda, cliente, vendedor y producto
+
+- Boxplots por Familias y Tipos de Producto
+
+#
+**📌 Vista principal (Storytelling General)**
+ 
 <img width="1856" height="1044" alt="dashboard_pestaña_principal" src="https://github.com/user-attachments/assets/5c18794b-bcc8-4ba1-bed2-4feddf53ab36" />
 
-----
-**Storytelling del primer origen de la caída**
-
+#
+**📌 Origen de la caída — Vista 1**
+ 
 <img width="1853" height="1037" alt="dashboard_pestaña_caidaTicket_N°1" src="https://github.com/user-attachments/assets/9428bd07-e574-4c1b-921e-5a40dd514b83" />
 
-----
-**Storytelling del segundo origen de la caída**
-
+#
+**📌 Origen de la caída — Vista 2**
+ 
 <img width="1858" height="1041" alt="dashboard_pestaña_caidaTicket_N°2" src="https://github.com/user-attachments/assets/d983da86-e7b6-473a-8b65-7537ae3c3b5c" />
 
------------------------------------------------
+----
 
-Gracias a dicho análisis basado en data storytelling, se llegó a la conclusión que, las caídas en dicho KPI para Octubre de 2024 (valor más bajo en los últimos 10 años), no se vio influenciado por el Valor Total de la Venta, los Ingresos o el %Margen de Utilidad, si no más bien, por una caída en el volumen de ventas de determinadas famiilias de productos.
-Las familias de productos que disminuyeron sus ventas en Octubre de 2024 fueron:
+**🧠 Conclusiones del Análisis**
 
-- Artículos para el Hogar -> Muebles para el Comedor
-        
-- Artículos Tecnológicos -> Parlantes y Amplificadores 
-        
+El descenso del Ticket Promedio (Octubre 2024) NO estuvo explicado por:
+
+❌ Valor Total de Venta
+
+❌ Ingresos
+
+❌ Margen de Utilidad
+
+El origen real fue:
+
+**📉 Caída en el volumen de ventas de familias específicas de productos**
+
+Las familias afectadas fueron:
+
+**1. Artículos para el Hogar → Muebles para el Comedor**
+
+**2. Artículos Tecnológicos → Parlantes y Amplificadores**
+
+Estas categorías presentaron:
+
+- Mayor variabilidad histórica
+
+- Caídas marcadas en Octubre 2024
+
+- Alto peso relativo en el mix de ventas 
+
+----
+
+📬 Contacto
+
+Si deseas más detalles o revisar el código fuente, puedes explorar las carpetas del repositorio o contactarme vía GitHub.
   
