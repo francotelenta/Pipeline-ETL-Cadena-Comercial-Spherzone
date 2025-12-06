@@ -1,8 +1,8 @@
 # 📦 ETL de Ventas con SSIS + Python + SQL Server
 
-Este README documenta el flujo ETL implementado con **SSIS**, complementado con generación automática de ventas mediante **Python**, y organizado en un flujo **SRC → STG → DW** para garantizar calidad, integridad y trazabilidad de los datos.
+En este apartado, se documenta el flujo ETL implementado con Visual Studio con un paquete **SSIS**, complementado con generación automática de ventas mediante **Python**, y organizado en un flujo **SRC → STG → DW** para garantizar calidad, integridad y trazabilidad de los datos.
 
-Se incluyen etiquetas (A, B, C, ...) para relacionar el diagrama anotado con la descripción técnica.
+Se incluyen etiquetas (A, B, C, D, E y F) para relacionar el diagrama anotado con la descripción técnica.
 
 ---
 
@@ -10,10 +10,9 @@ Se incluyen etiquetas (A, B, C, ...) para relacionar el diagrama anotado con la 
 
 Este proyecto implementa un **pipeline ETL completo** para procesar información comercial (ventas, productos y maestros) usando:
 
-* **Python** para generar automáticamente ventas diarias.
-* **SSIS** para ejecutar el flujo de extracción, transformación y carga.
+* **Python** para generar automáticamente ventas diarias (SRC), realizazr la exploración, análisis de calidad, validación y refinamiento de datos (STG).
 * **SQL Server** como base de datos para las capas Source (SRC), Staging (STG) y Data Warehouse (DW).
-* Validaciones, refinamientos y control de calidad.
+* **SSIS** para ejecutar el flujo de extracción, transformación y carga.
 
 El objetivo es automatizar la ingesta de ventas y preparar datos limpios y consistentes para reporting y análisis.
 
@@ -30,7 +29,6 @@ C → Generación de Ventas (Python)
 D → Capa SRC
 E → Capa STG
 F → Capa DW
-G → Validaciones Finales
 ```
 
 Cada bloque corresponde a un *Sequence Container* o sección específica del paquete SSIS.
@@ -127,7 +125,7 @@ Estas tablas son consumidas por sistemas de BI como Power BI.
 A continuación se muestra la el diagrama en Visual Studio señalando cada una de las fases (A–F) del proceso ETL.
 
 
-<img width="1844" height="1040" alt="image" src="https://github.com/user-attachments/assets/d4d52106-8cdc-4189-954a-9a90aabe32c7" />
+<img width="1811" height="1007" alt="diseño_paquete_etl" src="https://github.com/user-attachments/assets/f5461072-221a-4b3e-82df-4d4bf0cc8435" />
 
 
 ---
@@ -151,5 +149,5 @@ A continuación se muestra la el diagrama en Visual Studio señalando cada una d
 
 # ✨ Autor
 
-Desarrollado por **Franco Telenta Chavez**, Ingeniero Industrial especializado en análisis de datos y automatización ETL.
+Desarrollado por **Franco Telenta Chavez**, Bach. en Ingeniería Industrial especializado en análisis de datos y automatización ETL.
 
