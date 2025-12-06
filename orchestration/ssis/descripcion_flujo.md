@@ -74,7 +74,7 @@ Estas entidades deben procesarse antes del bloque de ventas para garantizar inte
 
 ---
 
-# 🟩 C. Generación Automática de Ventas (Python) e Ingesta a Capa SRC
+# 🟩 C. Generación Automática de Ventas e Ingesta a Capa SRC
 
 Previo al ETL principal, se ejecutan dos scripts Python encargados de generar ventas diarias:
 
