@@ -25,10 +25,9 @@ A continuación la estructura conceptual del pipeline, dividida en áreas clave.
 ```
 A → Productos
 B → Maestros
-C → Generación de Ventas (Python)
-D → Capa SRC
-E → Capa STG
-F → Capa DW
+C → Generación de Ventas (Python) e ingesta a capa SRC
+D → Capa STG
+E → Capa DW
 ```
 
 Cada bloque corresponde a un *Sequence Container* o sección específica del paquete SSIS.
