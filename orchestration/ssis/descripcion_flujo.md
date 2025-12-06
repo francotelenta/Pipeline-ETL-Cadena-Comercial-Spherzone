@@ -25,7 +25,7 @@ A continuación la estructura conceptual del pipeline, dividida en áreas clave.
 ```
 A → Productos
 B → Maestros
-C → Generación de Ventas (Python) e ingesta a capa SRC
+C → Generación de Ventas e ingesta a capa SRC
 D → Capa STG
 E → Capa DW
 ```
