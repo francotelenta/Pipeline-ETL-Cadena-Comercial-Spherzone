@@ -169,5 +169,7 @@ Estas categorías presentaron:
 
 📬 Contacto
 
-Si deseas más detalles o revisar el código fuente, puedes explorar las carpetas del repositorio o contactarme vía GitHub.
+Si deseas más detalles o revisar el código fuente, puedes explorar las carpetas del repositorio o contactarme por estos medios:
+- Correo: franco.telenta@gmail.com
+- LinkedIn: linkedin.com/in/franco-telenta-chavez.
   
