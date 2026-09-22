@@ -1,6 +1,29 @@
 ---
 ---
 
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
 body {
-  background: red !important;
+  background-color: #0F172A;
+  color: #CBD5E1;
+}
+
+.page__content {
+  color: #CBD5E1;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #F8FAFC;
+}
+
+a {
+  color: #38BDF8;
+}
+
+a:hover {
+  color: #7DD3FC;
 }
