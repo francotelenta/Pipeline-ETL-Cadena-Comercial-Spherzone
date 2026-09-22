@@ -176,7 +176,6 @@ Si deseas más detalles o revisar el código fuente, puedes explorar las carpeta
 ----
 
 
----
 
 <details>
 <summary>🔒 <b>Ver Licencia de Propiedad Intelectual y Derechos de Autor (© 2025)</b></summary>
