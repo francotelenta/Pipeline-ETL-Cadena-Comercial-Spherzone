@@ -11,26 +11,26 @@ body {
     #0F172A 0%,
     #111827 50%,
     #172554 100%
-  );
+  ) !important;
 
-  color: #CBD5E1;
+  color: #CBD5E1 !important;
 }
 
 .page__content {
-  color: #CBD5E1;
+  color: #CBD5E1 !important;
 }
 
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .page__content h4 {
-  color: #F8FAFC;
+  color: #F8FAFC !important;
 }
 
 a {
-  color: #38BDF8;
+  color: #38BDF8 !important;
 }
 
 a:hover {
-  color: #7DD3FC;
+  color: #7DD3FC !important;
 }
