@@ -1,5 +1,11 @@
-title: Mi Sitio Web
+title: Pipeline ETL - Cadena Comercial Spherzone
+
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # Usamos la piel oscura por defecto
+
+minimal_mistakes_skin: "dark"
+
 plugins:
   - jekyll-include-cache
+
+sass:
+  style: compressed
