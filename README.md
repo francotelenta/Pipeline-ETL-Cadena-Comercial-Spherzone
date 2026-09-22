@@ -172,4 +172,21 @@ Estas categorías presentaron:
 Si deseas más detalles o revisar el código fuente, puedes explorar las carpetas del repositorio o contactarme por estos medios:
 - Correo: franco.telenta@gmail.com
 - LinkedIn: linkedin.com/in/franco-telenta-chavez.
+
+
+LICENCIA DE PROPIEDAD INTELECTUAL Y DERECHOS DE AUTOR
+======================================================
+
+© 2026 Franco Nino Doménico Telenta Chavez. Todos los derechos reservados.
+
+Este proyecto, que incluye código fuente, scripts de bases de datos, lógica de simulación, arquitecturas ETL (SSIS), reportes de Power BI y documentación asociada, ha sido desarrollado de forma independiente por el autor como portafolio profesional y demostración de competencias técnicas en Ingeniería de Datos y Analítica de Negocios.
+
+Por la presente, se establecen las siguientes condiciones de uso para cualquier persona que acceda a este repositorio público:
+
+1. PROHIBICIÓN DE COPIA Y DISTRIBUCIÓN: Queda estrictamente prohibida la copia, reproducción, distribución, modificación, reventa o uso total o parcial de este material para fines comerciales, laborales, educativos o presentaciones públicas ajenas al autor sin su consentimiento explícito y por escrito.
+
+2. FINES DE EVALUACIÓN: Este repositorio se expone públicamente única y exclusivamente con fines de evaluación profesional (reclutadores, gerentes de contratación y profesionales de la industria) para validar las capacidades técnicas y de resolución de problemas del autor.
+
+El registro histórico de contribuciones (commits) de GitHub sirve como prueba legal y trazable de la fecha de creación y autoría original de este proyecto ante cualquier intento de plagio comercial o personal.
+
   
