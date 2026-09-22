@@ -1,3 +1,4 @@
+theme: jekyll-theme-Slate
 # Pipeline ETL — Cadena Comercial Spherzone
 
 Pipeline ETL completo y automatizado para la actualización diaria de datos de ventas de la Cadena Comercial Spherzone, utilizando Python, SQL Server, SSIS y visualización final en Power BI.
