@@ -1,2 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "dark" # O "contrast"
+title: Mi Sitio Web
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
