@@ -55,7 +55,7 @@ El flujo está diseñado para ejecutarse de forma automática, auditada y escala
 
 - Dashboard en Power BI
 
-<br> <img width="1000" height="802" alt="arquitectura_proceso" src="https://github.com/user-attachments/assets/ad041752-677b-4f86-9925-c37355d0fb3b" />
+<br> <img width="1520" height="802" alt="arquitectura_proceso" src="https://github.com/user-attachments/assets/ad041752-677b-4f86-9925-c37355d0fb3b" />
 
 ----
 
