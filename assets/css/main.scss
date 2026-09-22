@@ -1,13 +1,36 @@
 ---
 ---
 
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
 html,
-body,
-#main,
-.initial-content,
-.page,
-.page__content,
-.masthead,
-.sidebar {
-  background: #0F172A !important;
+body {
+  background: linear-gradient(
+    135deg,
+    #0F172A 0%,
+    #111827 50%,
+    #172554 100%
+  );
+
+  color: #CBD5E1;
+}
+
+.page__content {
+  color: #CBD5E1;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #F8FAFC;
+}
+
+a {
+  color: #38BDF8;
+}
+
+a:hover {
+  color: #7DD3FC;
 }
