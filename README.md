@@ -121,7 +121,7 @@ La investigación se centró en explicar el origen de esta caída mediante:
 - Boxplots por Familias y Tipos de Producto
 
 #
-## Modelo Snowflake en Power BI
+## ❄️Modelo Snowflake en Power BI
 <img width="1821" height="1080" alt="modelo_datos" src="https://github.com/user-attachments/assets/c9329891-8e10-4dca-a24b-7bd198727f47" />
 
 #
