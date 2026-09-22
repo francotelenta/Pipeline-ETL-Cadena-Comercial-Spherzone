@@ -1,36 +1,123 @@
+```scss
 ---
 ---
 
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
+/* ==============================
+   FONDO GENERAL
+   ============================== */
+
 html,
 body {
   background: linear-gradient(
     135deg,
-    #0F172A 0%,
-    #111827 50%,
-    #172554 100%
+    #172A2E 0%,
+    #1E3438 50%,
+    #123F45 100%
   ) !important;
 
-  color: #CBD5E1 !important;
+  color: #E8F1F2 !important;
 }
 
+
+/* ==============================
+   CONTENIDO
+   ============================== */
+
 .page__content {
-  color: #CBD5E1 !important;
+  color: #E8F1F2 !important;
 }
+
+
+/* ==============================
+   TÍTULOS
+   ============================== */
 
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .page__content h4 {
-  color: #F8FAFC !important;
+  color: #F4F1EA !important;
 }
 
+
+/* ==============================
+   ENLACES
+   ============================== */
+
 a {
-  color: #38BDF8 !important;
+  color: #A8DADC !important;
 }
 
 a:hover {
-  color: #7DD3FC !important;
+  color: #B8E0D2 !important;
 }
+
+
+/* ==============================
+   ÉNFASIS / COLOR PRINCIPAL
+   ============================== */
+
+strong {
+  color: #A8DADC !important;
+}
+
+
+/* ==============================
+   TEXTO EN ITÁLICA
+   ============================== */
+
+em {
+  color: #D8C4E8 !important;
+}
+
+
+/* ==============================
+   BLOQUES DE CÓDIGO
+   ============================== */
+
+code {
+  color: #F6E7A1 !important;
+}
+
+
+/* ==============================
+   CITAS
+   ============================== */
+
+blockquote {
+  border-left-color: #068490 !important;
+  color: #B8E0D2 !important;
+}
+
+
+/* ==============================
+   TABLAS
+   ============================== */
+
+table th {
+  background-color: #068490 !important;
+  color: #F4F1EA !important;
+}
+
+table td {
+  color: #E8F1F2 !important;
+}
+
+
+/* ==============================
+   BOTONES
+   ============================== */
+
+.btn {
+  background-color: #068490 !important;
+  color: #F4F1EA !important;
+}
+
+.btn:hover {
+  background-color: #A8DADC !important;
+  color: #172A2E !important;
+}
+```
