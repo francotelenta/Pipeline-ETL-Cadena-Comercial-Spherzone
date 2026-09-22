@@ -1,14 +1,3 @@
-<style>
-  body {
-    background: linear-gradient(135deg, #078591 0%, #0c2331 50%, #050b14 100%) !important;
-    background-attachment: fixed !important;
-  }
-  .page__inner, .sidebar {
-    background: rgba(255, 255, 255, 0.03) !important;
-    backdrop-filter: blur(8px);
-  }
-</style>
-
 # Pipeline ETL — Cadena Comercial Spherzone
 
 Pipeline ETL completo y automatizado para la actualización diaria de datos de ventas de la Cadena Comercial Spherzone, utilizando Python, SQL Server, SSIS y visualización final en Power BI.
