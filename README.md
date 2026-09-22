@@ -175,8 +175,8 @@ Si deseas más detalles o revisar el código fuente, puedes explorar las carpeta
 
 
 
-LICENCIA DE PROPIEDAD INTELECTUAL Y DERECHOS DE AUTOR
 
+**LICENCIA DE PROPIEDAD INTELECTUAL Y DERECHOS DE AUTOR**
 
 © 2026 Franco Nino Doménico Telenta Chavez. Todos los derechos reservados.
 
