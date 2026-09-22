@@ -121,11 +121,11 @@ La investigación se centró en explicar el origen de esta caída mediante:
 - Boxplots por Familias y Tipos de Producto
 
 #
-## Modelo Snowflake**
+## Modelo Snowflake
 <img width="1821" height="1080" alt="modelo_datos" src="https://github.com/user-attachments/assets/c9329891-8e10-4dca-a24b-7bd198727f47" />
----
 
 #
+## Panel General
 **📌 Vista principal (Storytelling General)**
  
 <img width="1856" height="1044" alt="dashboard_pestaña_principal" src="https://github.com/user-attachments/assets/5c18794b-bcc8-4ba1-bed2-4feddf53ab36" />
