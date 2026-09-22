@@ -196,5 +196,3 @@ El registro histórico de contribuciones (commits) de GitHub sirve como prueba l
 
 </details>
 
-
-  
