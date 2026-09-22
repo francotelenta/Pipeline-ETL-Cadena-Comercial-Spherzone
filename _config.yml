@@ -6,6 +6,3 @@ minimal_mistakes_skin: "dark"
 
 plugins:
   - jekyll-include-cache
-
-sass:
-  style: compressed
