@@ -176,6 +176,21 @@ Si deseas más detalles o revisar el código fuente, puedes explorar las carpeta
 ----
 
 
-🔒 Propiedad Intelectual: Este proyecto es de autoría privada. Queda prohibida su copia o distribución ajena a la evaluación profesional. Consulta los términos completos en el archivo LICENSE.
+---
+
+<details>
+<summary>🔒 <b>Ver Licencia de Propiedad Intelectual y Derechos de Autor (© 2025)</b></summary>
+<br>
+
+Este proyecto, que incluye código fuente, scripts de bases de datos, lógica de simulación, arquitecturas ETL (SSIS), reportes de Power BI y documentación asociada, ha sido desarrollado de forma independiente por el autor como portafolio profesional y demostración de competencias técnicas en Ingeniería de Datos y Analítica de Negocios.
+
+<b>1. PROHIBICIÓN DE COPIA Y DISTRIBUCIÓN:</b> Queda estrictamente prohibida la copia, reproducción, distribución, modificación, reventa o uso total o parcial de este material para fines comerciales, laborales, educativos o presentaciones públicas ajenas al autor sin su consentimiento explícito y por escrito.
+
+<b>2. FINES DE EVALUACIÓN:</b> Este repositorio se expone públicamente única y exclusivamente con fines de evaluación profesional (reclutadores, gerentes de contratación y profesionales de la industria) para validar las capacidades técnicas y de resolución de problemas del autor.
+
+El registro histórico de contribuciones (commits) de GitHub sirve como prueba legal y trazable de la fecha de creación y autoría original de este proyecto ante cualquier intento de plagio comercial o personal.
+
+</details>
+
 
   
