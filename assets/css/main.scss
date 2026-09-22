@@ -1,13 +1,29 @@
 ---
 ---
 
+@import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
 body {
-  background: linear-gradient(
-    135deg,
-    #21B9BA 0%,
-    #078591 50%,
-    #01596F 100%
-  );
+  background-color: #0F172A;
+  color: #E2E8F0;
+}
+
+.page__content {
+  color: #E2E8F0;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #FFFFFF;
+}
+
+a {
+  color: #38BDF8;
+}
+
+a:hover {
+  color: #7DD3FC;
 }
