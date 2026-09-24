@@ -172,7 +172,7 @@ Estas categorías presentaron:
 
 ----
 
-📬 Contacto
+## 📬 Contacto
 
 Si deseas conocer más detalles sobre el proyecto o revisar la implementación completa, puedes contactarme por los siguientes medios:
 
@@ -181,7 +181,7 @@ Si deseas conocer más detalles sobre el proyecto o revisar la implementación c
 
 ---
 
-🔒 Propiedad intelectual
+## 🔒 Propiedad intelectual
 
 Este proyecto ha sido desarrollado de forma independiente como parte de mi portafolio profesional y tiene como objetivo demostrar competencias en Ingeniería de Datos, ETL, Business Intelligence y Analítica de Negocios.
 
