@@ -181,7 +181,9 @@ Si deseas conocer más detalles sobre el proyecto o revisar la implementación c
 
 ---
 
-**🔒 Propiedad intelectual**
+<details>
+<summary>🔒 <b>Propiedad intelectual (© 2026)</b></summary>
+<br>
 
 Este proyecto ha sido desarrollado de forma independiente como parte de mi portafolio profesional y tiene como objetivo demostrar competencias en Ingeniería de Datos, ETL, Business Intelligence y Analítica de Negocios.
 
@@ -190,4 +192,7 @@ La versión publicada en este repositorio ha sido adaptada y simplificada para f
 El contenido de este repositorio está destinado principalmente a la evaluación profesional y no se concede autorización para copiar, redistribuir o reutilizar el proyecto completo como propio.
 
 Si deseas revisar la implementación original o conocer detalles adicionales de la solución, puedes contactarme directamente.
+
+</details>
+
 
