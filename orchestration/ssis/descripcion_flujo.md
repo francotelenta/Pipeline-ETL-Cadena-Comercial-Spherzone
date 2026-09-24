@@ -144,9 +144,4 @@ A continuación se muestra la el diagrama en Visual Studio señalando cada una d
 * Migración del ETL a Azure Data Factory o Prefect.
 * Implementar pruebas unitarias para transformación de datos.
 
----
-
-# ✨ Autor
-
-Desarrollado por **Franco Telenta Chavez**, Bach. en Ingeniería Industrial especializado en análisis de datos y automatización ETL.
 
