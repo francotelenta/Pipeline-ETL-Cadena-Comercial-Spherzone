@@ -174,16 +174,6 @@ Estas categorías presentaron:
 
 📬 Contacto
 
-Si deseas más detalles o revisar el código fuente, puedes explorar las carpetas del repositorio o contactarme por estos medios:
-- Correo: franco.telenta@gmail.com
-- LinkedIn: linkedin.com/in/franco-telenta-chavez.
-
-----
-
-
-
-## 📬 Contacto
-
 Si deseas conocer más detalles sobre el proyecto o revisar la implementación completa, puedes contactarme por los siguientes medios:
 
 - **Correo:** [franco.telenta@gmail.com](mailto:franco.telenta@gmail.com)
@@ -191,7 +181,7 @@ Si deseas conocer más detalles sobre el proyecto o revisar la implementación c
 
 ---
 
-## 🔒 Propiedad intelectual
+🔒 Propiedad intelectual
 
 Este proyecto ha sido desarrollado de forma independiente como parte de mi portafolio profesional y tiene como objetivo demostrar competencias en Ingeniería de Datos, ETL, Business Intelligence y Analítica de Negocios.
 
