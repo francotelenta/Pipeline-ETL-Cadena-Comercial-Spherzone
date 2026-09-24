@@ -121,7 +121,7 @@ Estas tablas son consumidas por sistemas de BI como Power BI.
 
 # 🖼️ 3. Diagrama del ETL
 
-A continuación se muestra la el diagrama en Visual Studio señalando cada una de las fases (A–F) del proceso ETL.
+A continuación se muestra la el diagrama en Visual Studio señalando cada una de las fases (A–E) del proceso ETL.
 
 
 <img width="1811" height="1007" alt="diseño_paquete_etl" src="https://github.com/user-attachments/assets/f5461072-221a-4b3e-82df-4d4bf0cc8435" />
