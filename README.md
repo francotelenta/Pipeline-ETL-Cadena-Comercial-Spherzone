@@ -1,4 +1,4 @@
-# Spherzone-End-to-End-BI-Data-Pipeline
+# Spherzone — End-to-End BI Data Pipeline
 
 Pipeline ETL completo y automatizado para la actualización diaria de datos de ventas de la Cadena Comercial Spherzone, utilizando Python, SQL Server, SSIS y visualización final en Power BI.
 El proyecto sigue una arquitectura Source → Staging → Data Warehouse y concluye con un análisis de anomalías mediante Data Storytelling.
